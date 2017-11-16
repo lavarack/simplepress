@@ -1,0 +1,14 @@
+C:\Users\owen\source\repos\SimplePress\SimplePress\obj\Debug\SimplePress.csprojResolveAssemblyReference.cache
+C:\Users\owen\source\repos\SimplePress\SimplePress\obj\Debug\SimplePress.Properties.Resources.resources
+C:\Users\owen\source\repos\SimplePress\SimplePress\obj\Debug\SimplePress.csproj.GenerateResource.Cache
+C:\Users\owen\source\repos\SimplePress\SimplePress\obj\Debug\SimplePress.csproj.CoreCompileInputs.cache
+C:\Users\owen\source\repos\SimplePress\SimplePress\bin\Debug\SimplePress.exe.config
+C:\Users\owen\source\repos\SimplePress\SimplePress\bin\Debug\SimplePress.exe
+C:\Users\owen\source\repos\SimplePress\SimplePress\bin\Debug\SimplePress.pdb
+C:\Users\owen\source\repos\SimplePress\SimplePress\obj\Debug\SimplePress.SimplePress.resources
+C:\Users\owen\source\repos\SimplePress\SimplePress\obj\Debug\SimplePress.exe
+C:\Users\owen\source\repos\SimplePress\SimplePress\obj\Debug\SimplePress.pdb
+C:\Users\owen\source\repos\SimplePress\SimplePress\bin\Debug\SimplePress.exe.manifest
+C:\Users\owen\source\repos\SimplePress\SimplePress\bin\Debug\SimplePress.application
+C:\Users\owen\source\repos\SimplePress\SimplePress\obj\Debug\SimplePress.exe.manifest
+C:\Users\owen\source\repos\SimplePress\SimplePress\obj\Debug\SimplePress.application

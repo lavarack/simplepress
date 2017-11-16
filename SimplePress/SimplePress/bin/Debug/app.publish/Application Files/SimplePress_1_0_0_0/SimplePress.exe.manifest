@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SimplePress.exe" version="1.0.0.0" publicKeyToken="21d44ddc4e358fca" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SimplePress" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SimplePress.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimplePress.exe" size="135128">
+      <assemblyIdentity name="SimplePress" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KcKLdQJg8McOcCbxWdY9GOtH0NU9dXBlgLloTb+DM+A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SimplePress.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-NISNNSEV\owen" issuerKeyHash="628c75037a78d27e67df4f64500ed01ec48d150d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AiDYxbAkKpPjddbqwqloW0JNnZzlf3XNDJNh+aozWOQ=</DigestValue></Reference></SignedInfo><SignatureValue>OxvuKNYI1ykC1jNz5L956IOE/ed6Xhoi3MmuhO6Xx0yAHIK9lrPPSy2LFTOHed+5E2euy3zg2062ZourS+AaGTyTUCEzt+AbAAaLpTgkwrNOGpJiZIpCd9OIOSeCSsC5M+vlCuy8a0gq8/1h8V7EzfD3/GGmi+rj3muLp7Mz++0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yftnq6xy6T6kkuL9hQhI3vcUeWtR0ufZu/OF8d+tY7bpfcfuzMuqHGLVmaUdcQXpbzFJBzg+v9Jn+jJpttZjy1j0m1J0bipaFTnyIml9RdplqCbqyF3czgxX9dLtBOYSgXGhqLlntIhU78ZbOq4t//OdYwzS0iX9AqCFWyXPCy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e45833aaf961930ccd757fe59c9d4d425b68a9c2ead675e3932a24b0c5d82002" Description="" Url=""><as:assemblyIdentity name="SimplePress.exe" version="1.0.0.0" publicKeyToken="21d44ddc4e358fca" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-NISNNSEV\owen</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hyIKAYfr+MrTejSPAScv6WzCrCV5qm+dIhkbKj9LqVU=</DigestValue></Reference></SignedInfo><SignatureValue>MGrVaTwhJBQ/nrZzsjs66TSWWizBkZUgLfz/jENxY5KgvYXlMfE9JhmJ/5vIOQBmeoDKiAmEhzg74E7ds6CsQjB4UHpBl850kKCID2RlNvXNt6e9+o5e95Ws7WypvSK3ApagNnV30WdsOs0hAVpN2vrhOwqDSf2j/WTxoX0W6tI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yftnq6xy6T6kkuL9hQhI3vcUeWtR0ufZu/OF8d+tY7bpfcfuzMuqHGLVmaUdcQXpbzFJBzg+v9Jn+jJpttZjy1j0m1J0bipaFTnyIml9RdplqCbqyF3czgxX9dLtBOYSgXGhqLlntIhU78ZbOq4t//OdYwzS0iX9AqCFWyXPCy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQVakV+iM48pFLam64GahBozANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABBAFAAVABPAFAALQBOAEkAUwBOAE4AUwBFAFYAXABvAHcAZQBuMB4XDTE3MTExNjAwMzU1NVoXDTE4MTExNjA2MzU1NVowMzExMC8GA1UEAx4oAEwAQQBQAFQATwBQAC0ATgBJAFMATgBOAFMARQBWAFwAbwB3AGUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyftnq6xy6T6kkuL9hQhI3vcUeWtR0ufZu/OF8d+tY7bpfcfuzMuqHGLVmaUdcQXpbzFJBzg+v9Jn+jJpttZjy1j0m1J0bipaFTnyIml9RdplqCbqyF3czgxX9dLtBOYSgXGhqLlntIhU78ZbOq4t//OdYwzS0iX9AqCFWyXPCy0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCr/zVlpj8KD8QscQGgTtJzsxC70LDxgag4EcUPZjle1CT6MkHfzHYidI7tzpy72trNwkCGl5dItABlYffq590J5XjfR33LRaUUvz3M3vKPaaFdxdTpizYklN3J0gjoBzw/epL1M00RchyKVzh/4OpfD8tLM/ATKBvZtZ/WYl4sRw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
